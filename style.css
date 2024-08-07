@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    /* padding: 0;
+    margin: 0; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 242, 245);
+    border-radius: 5px;
+    width: 98%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.left {
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-left: -23px;
+    margin-top: -50px;
+}
+
+.h1 {
+    margin-top: -45px;
+    color: rgb(24, 119, 242);
+    font-size: 30px;
+}
+
+.h3 {
+    margin-top: -85px;
+    font-size: 23px;
+}
+
+.right {
+    /* border: 2px solid red; */
+    width: 35%;
+    height: 100%;
+}
+
+.login{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 15px;
+    width: 90%;
+    height: 70%;
+    /* padding-left: -23px; */
+}
+
+form{
+    margin-top: 25%;
+    padding-top: 30px;
+}
+
+input{
+    outline: none;
+    border: 1px solid rgb(222, 222, 222) !important;
+    padding: 8px;
+    margin-top: 50px;
+    margin: 10px 23px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button{
+    width: 266px;
+    background-color: rgb(24, 119, 242);
+    border: 1px solid rgb(24, 119, 242) !important;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.end > p{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 2px;
+}
+    
+
+.end > p> a{
+    color: rgb(24, 119, 242);   
+    text-decoration: none;
+}
+
+.hr{
+    /* isplay: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 0 23px;
+}
+
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 150px;
+    height: 40px;
+    background-color: rgb(66, 183, 42);
+    color: #fff;
+    font-size: 13px; */
+}
+
+.account>p{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(66, 183, 42);
+    border: 2px solid rgb(66, 183, 42);
+    border-radius: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account>p>a{
+    text-decoration: none;
+    color: #fff;
+    padding: ;
+}
